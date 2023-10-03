@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "TeamPlayers-fabric",
+  "version": "${version}",
+  "name": "TeamPlayers-fabric",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/oliver/TeamPlayers-fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/TeamPlayers-fabric/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "com.parkerdev.teamplayersfabric.client.TeamPlayers_fabricClient"
+    ],
+    "main": [
+      "com.parkerdev.teamplayersfabric.TeamPlayers_fabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
